@@ -37,5 +37,19 @@ public class Literal {
         byte second = 30;
         int result = first * second;
         System.out.println(result);
+
+
+        // arithemetic operators
+        int no1 = 2 ;
+        int no2 = 4;          
+        int resut = no1 * no2;
+        ++no1;  // pre - increment
+        no1++; // post - increment
+
+        int resultUpdate = no1++; // fetch the value and then update
+        // int resultUpdate = ++no1; // fetch the value and then update
+
+        System.out.println(result);
+        System.out.println(no1);
     }
 }
